@@ -1,0 +1,10 @@
+This is a drop-in C replacement for Python's gettext.GNUTranslations.  For our
+fairly large set of languages and strings, it makes parsing 10x faster.
+
+Just import GNUTranslations from cgettext instead of gettext.
+
+You can safely install this module on PyPy and other implementations where a C
+extension is undesirable, and it will simply re-export the built-in class.
+
+The repository includes a small module, test_cgettext, that runs the built-in
+Python gettext tests with GNUTranslations monkeypatched.

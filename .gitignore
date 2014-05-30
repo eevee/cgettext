@@ -1,0 +1,10 @@
+*.pyc
+.*.sw*
+.sw*
+.ropeproject/
+
+# build cruft
+/build/
+/dist/
+/MANIFEST
+*.c
