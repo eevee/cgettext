@@ -34,6 +34,7 @@ else:
 setup(
     name='cgettext',
     version='0.1',
+    description='This is a drop-in C replacement for Python\'s gettext.',
     author='Eevee (Alex Munroe)',
     author_email='eevee.pypi@veekun.com',
     url='https://github.com/eevee/cgettext',
