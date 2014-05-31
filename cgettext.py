@@ -6,7 +6,6 @@ except ImportError:
 else:
     import gettext
 
-
     class GNUTranslations(gettext.GNUTranslations):
         def _parse(self, fp):
             charset, metadata, catalog, plural = c_parse(fp)
